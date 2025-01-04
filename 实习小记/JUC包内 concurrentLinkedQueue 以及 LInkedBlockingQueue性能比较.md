@@ -107,26 +107,26 @@ public class ThreadTest {
 #### 测试结果集
 
 - 第一次测试，数量10000 * 10线程进行写入和读取
-![img.png](../imge/实习小记/img.png)
+![img.png](../imge/实习小记/JUC包内%20concurrentLinkedQueue%20以及%20LInkedBlockingQueue性能比较/img.png)
 会发现其中的copyOnWriteArrayList的非常慢，所以我们在后面的测试将其去除
 
 
 - 第二次测试, 数量100000 * 10线程进行写入和读取
-![img_1.png](../imge/实习小记/img_1.png)
+![img_1.png](../imge/实习小记/JUC包内%20concurrentLinkedQueue%20以及%20LInkedBlockingQueue性能比较/img_1.png)
 会发现我们的synchronizedList在get就是操作的时候非常的慢
 
 
 - 第三次测试，数量500000 * 10线程进行写入和读取
-![img_2.png](../imge/实习小记/img_2.png)
+![img_2.png](../imge/实习小记/JUC包内%20concurrentLinkedQueue%20以及%20LInkedBlockingQueue性能比较/img_2.png)
 
 - 第四次测试, 数量2000 * 1000线程进行写入和读取
-![img_3.png](../imge/实习小记/img_3.png)
+![img_3.png](../imge/实习小记/JUC包内%20concurrentLinkedQueue%20以及%20LInkedBlockingQueue性能比较/img_3.png)
 
 - 第五次测试，数量10 * 10000线程进行写入和读取
-![img_4.png](../imge/实习小记/img_4.png)
+![img_4.png](../imge/实习小记/JUC包内%20concurrentLinkedQueue%20以及%20LInkedBlockingQueue性能比较/img_4.png)
 
 - 第六次测试，数量10 * 200000线程进行写入和读取
-![img_5.png](../imge/实习小记/img_5.png)
+![img_5.png](../imge/实习小记/JUC包内%20concurrentLinkedQueue%20以及%20LInkedBlockingQueue性能比较/img_5.png)
 
 ## 底层实现
 1. `Collections.synchronizedList(list);`
