@@ -6,7 +6,7 @@
 ## 目录
 
 ### 实习小记
-- 🎈[JUC包内 concurrentLinkedQueue 以及 LInkedBlockingQueue性能比较](./实习小记/JUC包内 concurrentLinkedQueue 以及 LInkedBlockingQueue性能比较.md)
+- 🎈[JUC包内 concurrentLinkedQueue 以及 LInkedBlockingQueue性能比较](./实习小记/JUC包内concurrentLinkedQueue以及LInkedBlockingQueue性能比较.md)
 - 🎈[低代码CICD实现](./实习小记/低代码cicd实现.md)
 - 🎈[大表添加索引](./实习小记/大表添加索引.md)
 
