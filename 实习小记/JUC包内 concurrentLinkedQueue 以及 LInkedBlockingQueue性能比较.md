@@ -1,4 +1,4 @@
-# ConcurrentLinkedQueue & LinkedBlockingQueue & CopyOrWriteArrayList & 的性能对比 以及部分JUC包八股
+# ConcurrentLinkedQueue & LinkedBlockingQueue & CopyOnWriteArrayList & 的性能对比 以及部分JUC包八股
 
 ## 前言
 此篇的由来，其实是在实习过程中，遇到了个需求，涉及到多线程并发获取对应的数据结果集
